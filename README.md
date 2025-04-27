@@ -15,9 +15,9 @@ Fully responsive design — works beautifully across all devices.
 
 📋 Prerequisites
 Before you get started, make sure you have:
-Node.js (v18.0.0 or higher)
-npm (v8.0.0 or higher) or Yarn
-
+Node.js (v18.0.0)
+npm (v8.0.0 ) or Yarn
+React (^18.2.0)
 📦 Installation
 Clone the repository:
 git clone https://github.com/Akanksha174/AIsafetyDashboard.git
