@@ -20,8 +20,7 @@ npm (v8.0.0 or higher) or Yarn
 
 📦 Installation
 Clone the repository:
-git clone https://github.com/yourusername/ai-safety-incident-dashboard.git
-cd ai-safety-incident-dashboard
+git clone https://github.com/Akanksha174/AIsafetyDashboard.git
 
 Install dependencies:
 npm install
