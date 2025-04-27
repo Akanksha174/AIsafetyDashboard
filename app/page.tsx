@@ -27,7 +27,7 @@ import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { format } from "date-fns"
 
-// Define the anomaly type
+//anomaly type
 interface Anomaly {
   id: number
   title: string
@@ -37,7 +37,7 @@ interface Anomaly {
 }
 
 export default function AISafetyDashboard() {
-  // Initial mock data
+  //mock data
   const initialAnomalies: Anomaly[] = [
     {
       id: 1,
@@ -203,13 +203,6 @@ export default function AISafetyDashboard() {
             <div>
               <h1 className="text-3xl font-bold text-blue-900">AI Safety Monitoring System</h1>
               <p className="text-teal-600">Tracking and analyzing AI anomalies</p>
-            </div>
-
-            <div className="flex items-center gap-2">
-              <Activity className="h-5 w-5 text-teal-500" />
-              <span className="text-sm text-blue-700">
-                System Status: <span className="text-green-500">Operational</span>
-              </span>
             </div>
           </div>
 
